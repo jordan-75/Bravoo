@@ -17,7 +17,7 @@ const JohnnyBravoComponent = () => {
 				<img src="/cloud.png" alt="Nuage" className="absolute top-20 h-12" style={{ left: "30%" }} />
 				<img src="/cloud.png" alt="Nuage" className="absolute top-10 h-14" style={{ left: "50%" }} />
 				<img src="/johnnybravoshowpano.png" alt="Johnny Bravo Show" className="absolute top-20 right-0 h-80 w-auto" style={{ zIndex: "9999" }} />
-				<img src="/unnamed.png" alt="Bravo Logo" className="absolute top-1/4 left-1/4 transform -translate-y-1/2" style={{ height: "120px", width: "auto", zIndex: "9999" }} />
+				<img src="/LogoBravo.png" alt="Bravo Logo" className="absolute top-1/4 left-1/4 transform -translate-y-1/2" style={{ height: "120px", width: "auto", zIndex: "9999" }} />
 			</div>
 		</section>
 	);
