@@ -66,7 +66,7 @@ const Footer = () => {
               <img src="/bsc.png" alt="etherscan" className="w-12 h-12 rounded-full"  style={{width: "35px", height: "35px"}} />
             </a>
           </div>
-          <p className="text-black mt-4 text-lg">Team@JohnnyBravo.com</p>
+          <p className="text-black mt-4 text-lg">Team@ItsJohnnyBravo.com</p>
           <p className="text-black mt-4 text-2xl">© Flex By Day, Trade $BRAVO By Night!</p>
         </div>
       </div>
