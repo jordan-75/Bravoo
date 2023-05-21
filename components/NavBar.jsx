@@ -1,6 +1,6 @@
 import { useEffect } from "react";
+import MobileMenu from "./MobileMenu";
 import Image from "next/image";
-import logo from "../public/unnamed-removebg-preview.png";
 import Bravologo from "../public/Johnny-logo.png";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
@@ -19,12 +19,11 @@ const Navbar = () => {
     <nav className="mx-auto w-full h-28 bg-yellow-500 shadow-lg border-t-8 border-yellow-400 navbar-border">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" />
       <div className="flex justify-center items-center h-full w-full px-4 2xl:px-16">
-      <div className="flex items-center">
-  <div className="mr-auto" style={{ marginRight: '40px' }}>
-    <Image src={Bravologo} alt="logo" width="100" height="100" priority />
-  </div>
-</div>
-
+        <div className="flex items-center">
+          <div className="mr-auto" style={{ marginRight: '40px' }}>
+            <Image src={Bravologo} alt="logo" width="100" height="100" priority />
+          </div>
+        </div>
         <div>
           <ul className="hidden sm:flex">
             <li className="ml-6 hover:text-orange-500 transition-opacity nav-item">
@@ -62,17 +61,13 @@ const Navbar = () => {
                 <span className="text-xl font-medium italic zoom-effect cursor-pointer">Chart</span>
               </a>
             </li> */}
-			<li className="ml-6 nav-item">
+            <li className="ml-6 nav-item">
               <a href="https://pancakeswap.finance/swap" target="_blank" className="flex items-center hover:text-purple-500 transition-opacity">
-                <span className="text-xl font-medium italic zoom-effect cursor-default">Buy</span>
+                 <span className="text-xl font-medium italic zoom-effect cursor-default">Buy</span>
               </a>
-            </li>
+              </li>
           </ul>
-          <button className="sm:hidden focus:outline-none bg-pink-500 hover:bg-green-500 transition-colors">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
+          <MobileMenu />
         </div>
       </div>
     </nav>

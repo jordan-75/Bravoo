@@ -45,3 +45,9 @@ body {
 .navbar-border {
   border-top-width: 14px;
 }
+
+@media (min-width: 768px) {
+  .dropdown-menu-toggle {
+    display: none;
+  }
+}
