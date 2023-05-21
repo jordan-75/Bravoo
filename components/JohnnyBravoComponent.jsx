@@ -49,16 +49,16 @@ const JohnnyBravoComponent = () => {
             />
           )}
 				</div>
-				<p style={{ position: "absolute", zIndex: "9999" }}>
+				<p style={{ position: "absolute", zIndex: "99" }}>
 					CA: 0x460736a29b08A6E8113B30c35d621cb6042765EA
 				</p>
 				<img src="/cloud.png" alt="Nuage" className="absolute top-0 h-20" style={{ left: "10%" }} />
 				<img src="/cloud.png" alt="Nuage" className="absolute top-10 h-16" style={{ right: "20%" }} />
 				<img src="/cloud.png" alt="Nuage" className="absolute top-20 h-12" style={{ left: "30%" }} />
 				<img src="/cloud.png" alt="Nuage" className="absolute top-10 h-14" style={{ left: "50%" }} />
-				<img src="/johnnybravoshowpano.png" alt="Johnny Bravo Show" className="absolute top-20 right-0 h-80 w-auto" style={{ zIndex: "9999" }} />
+				<img src="/johnnybravoshowpano.png" alt="Johnny Bravo Show" className="absolute top-20 right-0 h-80 w-auto" style={{ zIndex: "99" }} />
 				{!isSmallScreen && (
-				<img src="/LogoBravo.png" alt="Bravo Logo" className="absolute top-1/4 left-1/4 transform -translate-y-1/2" style={{ height: "120px", width: "auto", zIndex: "9999" }} />
+				<img src="/LogoBravo.png" alt="Bravo Logo" className="absolute top-1/4 left-1/4 transform -translate-y-1/2" style={{ height: "120px", width: "auto", zIndex: "99" }} />
 				)}
 			</div>
 		</section>
