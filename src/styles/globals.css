@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Luckiest Guy', cursive;
+} 
+
+.zoom-effect {
+  transition: transform 0.3s ease-in-out; /* Ajoutez une transition de 0.3 seconde pour le zoom */
+}
+
+.zoom-effect:hover {
+  transform: scale(1.2); /* Applique un zoom de 1.1 au survol */
+}
+
+/* .hovered {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+ */
+
+ @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-item {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+*,
+*:before,
+*:after {
+  @apply cursor-pointer;
+}
+
+.navbar-border {
+  border-top-width: 14px;
+}
