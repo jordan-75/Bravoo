@@ -62,7 +62,7 @@ const Footer = () => {
             <a href="https://t.me/JohnnyBravoFanClub" target="_blank" rel="noopener noreferrer">
               <img src="/telegram.png" alt="Telegram" className="w-12 h-12 rounded-full" />
             </a>
-            <a href="https://bscscan.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://bscscan.com/address/0x293482b43e46f9d4a40742bbe7879ec81201fd1c" target="_blank" rel="noopener noreferrer">
               <img src="/bsc.png" alt="etherscan" className="w-12 h-12 rounded-full"  style={{width: "35px", height: "35px"}} />
             </a>
           </div>
