@@ -62,8 +62,8 @@ const Navbar = () => {
               </a>
             </li> */}
             <li className="ml-6 nav-item">
-              <a href="https://pancakeswap.finance/swap" target="_blank" className="flex items-center hover:text-purple-500 transition-opacity">
-                 <span className="text-xl font-medium italic zoom-effect cursor-default"><strike>Buy</strike> Soon</span>
+              <a href="https://gempad.app/presale/0xaddb7759ceEc23E097BA9fE360D9380B3DCc701f?chainId=56" target="_blank" className="flex items-center hover:text-purple-500 transition-opacity">
+                 <span className="text-xl font-medium italic zoom-effect cursor-default">Buy</span>
               </a>
               </li>
           </ul>
