@@ -50,7 +50,7 @@ const JohnnyBravoComponent = () => {
           )}
 				</div>
 				<p style={{ position: "absolute", zIndex: "99" }}>
-					CA: 0x460736a29b08A6E8113B30c35d621cb6042765EA
+					CA: 0x293482b43e46f9d4a40742bbe7879ec81201fd1c
 				</p>
 				<img src="/cloud.png" alt="Nuage" className="absolute top-0 h-20" style={{ left: "10%" }} />
 				<img src="/cloud.png" alt="Nuage" className="absolute top-10 h-16" style={{ right: "20%" }} />

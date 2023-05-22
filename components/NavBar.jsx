@@ -52,7 +52,7 @@ const Navbar = () => {
               </ScrollLink>
             </li>
             <li className="ml-6 hover:text-blue-500 transition-opacity nav-item">
-              <a href="https://goerli.etherscan.io/token/0x293482b43e46f9d4a40742bbe7879ec81201fd1c?a=0x4a408BBCe9aaf349bfC7487E3A614020cdfca900#code" target="_blank">
+              <a href="https://bscscan.com/address/0x293482b43e46f9d4a40742bbe7879ec81201fd1c" target="_blank">
                 <div className="text-xl font-medium italic zoom-effect cursor-pointer">Contract</div>
               </a>
             </li>
@@ -63,7 +63,7 @@ const Navbar = () => {
             </li> */}
             <li className="ml-6 nav-item">
               <a href="https://pancakeswap.finance/swap" target="_blank" className="flex items-center hover:text-purple-500 transition-opacity">
-                 <span className="text-xl font-medium italic zoom-effect cursor-default">Buy</span>
+                 <span className="text-xl font-medium italic zoom-effect cursor-default"><strike>Buy</strike> Soon</span>
               </a>
               </li>
           </ul>
