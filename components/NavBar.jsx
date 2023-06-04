@@ -52,7 +52,7 @@ const Navbar = () => {
               </ScrollLink>
             </li>
             <li className="ml-6 hover:text-blue-500 transition-opacity nav-item">
-              <a href="https://bscscan.com/address/0x293482b43e46f9d4a40742bbe7879ec81201fd1c" target="_blank">
+              <a href="https://bscscan.com/token/0xc8e3a0efab571115a0658143d62607b148056561?a=0x4a408bbce9aaf349bfc7487e3a614020cdfca900" target="_blank">
                 <div className="text-xl font-medium italic zoom-effect cursor-pointer">Contract</div>
               </a>
             </li>
