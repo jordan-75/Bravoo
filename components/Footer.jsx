@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="container mx-auto flex flex-col items-center justify-center text-center relative z-10">
           <img src="/pumpit.png" alt="Johnny Bravo" className="w-48 h-48 mb-4" />
           <div className="flex items-center justify-center space-x-4">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/johnny_bra56215" target="_blank" rel="noopener noreferrer">
               <img src="/twitter-logo.png" alt="Twitter" className="w-12 h-12 rounded-full" />
             </a>
             <a href="https://pancakeswap.finance/swap" target="_blank" rel="noopener noreferrer">
@@ -62,7 +62,7 @@ const Footer = () => {
             <a href="https://t.me/JohnnyBravoFanClub" target="_blank" rel="noopener noreferrer">
               <img src="/telegram.png" alt="Telegram" className="w-12 h-12 rounded-full" />
             </a>
-            <a href="https://bscscan.com/address/0x293482b43e46f9d4a40742bbe7879ec81201fd1c" target="_blank" rel="noopener noreferrer">
+            <a href="https://bscscan.com/token/0xc8e3a0efab571115a0658143d62607b148056561?a=0x4a408BBCe9aaf349bfC7487E3A614020cdfca900" target="_blank" rel="noopener noreferrer">
               <img src="/bsc.png" alt="etherscan" className="w-12 h-12 rounded-full"  style={{width: "35px", height: "35px"}} />
             </a>
           </div>
