@@ -27,7 +27,7 @@ const Navbar = () => {
         <div>
           <ul className="hidden sm:flex">
             <li className="ml-6 hover:text-orange-500 transition-opacity nav-item">
-              <a href="https://t.me/+fLy6ks8RgQo2YTQ0" className="flex items-center hover:text-orange-500 transition-opacity" target="_blank">
+              <a href="https://t.me/+0UpoExo5BdRlNDJk" className="flex items-center hover:text-orange-500 transition-opacity" target="_blank">
                 <span className="text-xl font-medium italic zoom-effect cursor-pointer">Fan Club</span>
               </a>
             </li>
